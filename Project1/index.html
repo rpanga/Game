@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styel.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P1</title>
+</head>
+<body>
+
+    <div class="container-1">
+
+        <h2>C1-Your age in number</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button type="button" class="btn btn-dark" onclick="ageindays()">Click me</button> 
+            </div>
+        
+            <div>
+            <button type="button" class="btn btn-warning" onclick="reset()">Reset</button>
+            </div>
+        </div>  
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container-2">
+        
+        <h2 >C2-Generate Cat</h2>
+        
+        <div class="flex-box-container-1">
+            <div>
+                <button  type="button" class="btn btn-success" id="can-gen" onclick="generate()" >Generate Cat</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-warning " onclick="resetcat()">Reset</button>
+            </div>   
+        </div>
+
+        <br>
+        <br>
+        
+        <div class="flex-box-container-2" id="catgen"> 
+
+        </div>
+
+    </div>
+    
+    <br>
+
+    <div class="container-3">
+
+        <h2>C3- Rock Paper Scissor</h2>
+
+        <div id="flex-box-container-3">
+
+            <button type="button" class="btn btn-warning " onclick="resetrps()">Reset</button>
+
+        </div>
+
+        <br>
+
+        <div class="flex-box-rps" id= "flex-box-rps1">
+            <img src="image/—Pngtree—rock_1149776.png" alt="" height="200" width="200" id="rock" onclick="rpsgame(this)">
+            <img src="image/—Pngtree—white notepad_2770214.png" alt="" height="200" width="200" id="paper" onclick="rpsgame(this)">
+            <img src="image/29126-6-cartoon-scissor.png" alt="" height="200" width="200" id="scissor" onclick="rpsgame(this)">
+        </div>
+
+   
+        
+
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
